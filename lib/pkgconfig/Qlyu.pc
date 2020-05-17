@@ -1,0 +1,13 @@
+prefix=C:/Qt/Qt5.9.7/5.9.7/mingw53_32
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qlyu
+Description: Qlyu module
+Version: 5.9.7
+Libs: -L${libdir} -lQlyud 
+Cflags: -I${includedir}/Qlyu -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Widgets
+
